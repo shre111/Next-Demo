@@ -1,0 +1,74 @@
+/* Background styling */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 20px;
+}
+
+/* Card container */
+.home-card {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+/* Title */
+.home-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Description text */
+.home-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Button container */
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Button styles */
+.home-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Login button */
+.login-btn {
+    background: #007bff;
+}
+.login-btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Register button */
+.register-btn {
+    background: #28a745;
+}
+.register-btn:hover {
+    background: #1e7e34;
+    transform: scale(1.05);
+}

@@ -1,0 +1,78 @@
+/* Root container */
+.root-container {
+  background: linear-gradient(135deg, #eef2ff, #d8f3dc);
+  color: #333;
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.navbar-container {
+  display: flex;
+  width: 97%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* General link styles */
+.nav-link {
+  font-size: 16px;
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #2563eb;
+}
+
+/* Login button */
+.nav-button {
+  padding: 10px 16px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.nav-button:hover {
+  background: #1e40af;
+  transform: scale(1.05);
+}
+
+/* Main content */
+.main-content {
+  padding: 100px 20px 20px;
+  min-height: 100vh;
+}
